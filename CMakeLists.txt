@@ -38,4 +38,7 @@ set(PROJECT_REQUIRED_LIBRARIES
     Threads::Threads rt m)
 
 # add subfolders
+add_subdirectory(ExampleThread)
+add_subdirectory(ExampleMutex)
+add_subdirectory(ExampleCondvar)
 add_subdirectory(FreshThreads)
